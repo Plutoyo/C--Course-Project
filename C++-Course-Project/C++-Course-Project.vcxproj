@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -115,6 +115,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Administrator.cpp" />
+    <ClCompile Include="..\src\buyerDataBase.cpp" />
+    <ClCompile Include="..\src\consumer.cpp" />
+    <ClCompile Include="..\src\Date.cpp" />
+    <ClCompile Include="..\src\goods.cpp" />
+    <ClCompile Include="..\src\List.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\menu.cpp" />
+    <ClCompile Include="..\src\other Function.cpp" />
+    <ClCompile Include="..\src\Person.cpp" />
+    <ClCompile Include="..\src\seller.cpp" />
+    <ClCompile Include="..\src\sellerDataBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Administrator.h" />
+    <ClInclude Include="..\src\buyerDataBase.h" />
+    <ClInclude Include="..\src\consumer.h" />
+    <ClInclude Include="..\src\Date.h" />
+    <ClInclude Include="..\src\goods.h" />
+    <ClInclude Include="..\src\List.h" />
+    <ClInclude Include="..\src\menu.h" />
+    <ClInclude Include="..\src\other Function.h" />
+    <ClInclude Include="..\src\Person.h" />
+    <ClInclude Include="..\src\pSkip.h" />
+    <ClInclude Include="..\src\seller.h" />
+    <ClInclude Include="..\src\sellerDataBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\BuyerData.dat" />
+    <None Include="..\src\ListData.dat" />
+    <None Include="..\src\SellerData.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
